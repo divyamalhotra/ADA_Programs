@@ -50,7 +50,7 @@ int main()
 	cout<<"Enter the size of array: ";
 	cin>>n;
 	int A[n];
-	cout<<"Enter the array: ";
+	cout<<"Enter the array elements one by one with space or enter: ";
 	for(int i=0;i<n;i++)
 	cin>>A[i];
 	mm=MaxMin(A,0,n-1);
